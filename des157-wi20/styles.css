@@ -1,0 +1,44 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+
+}
+
+img{
+  max-width:100%;
+  height: auto;
+}
+
+main{
+  padding:30px;
+}
+
+footer{
+  align-content: center;
+}
+
+nav ul{  
+  list-style-type: none;
+  background-color: purple;
+  padding:0;
+  margin:0;
+}
+
+nav ul li a{
+  display:block;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  color:red;
+}
