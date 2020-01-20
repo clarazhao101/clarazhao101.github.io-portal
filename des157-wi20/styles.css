@@ -1,44 +1,70 @@
-body{
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6em;
-}
-
-h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-
-}
-
-img{
-  max-width:100%;
-  height: auto;
-}
-
 main{
-  padding:30px;
+  max-width: 1200px;
+  width: 800px;
+  margin:auto;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+header{
+  margin-bottom: 50px;
+  margin-top:20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-bottom: solid 3px #3CB371;
+
 }
 
 footer{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color:#3CB371;
+  width:100%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+#mySketch img{
+  width:800px;
+  height:250px;
+}
+
+
+.bigbox{
+  display: flex;
+  flex-direction: row;
+  width:100%;
   align-content: center;
 }
 
-nav ul{  
-  list-style-type: none;
-  background-color: purple;
-  padding:0;
-  margin:0;
+
+footer p{
+  flex:1;
 }
 
-nav ul li a{
-  display:block;
+
+
+.bigbox div{
+  flex:1;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding:10px;
+  border: solid 3px #3CB371;
+}
+
+.bigbox a{
   text-decoration: none;
-  color: white;
+  color:#3CB371;
 }
 
-nav ul li a:hover{
-  color:red;
+footer p a{
+  color:white;
+  text-decoration: none;
 }
