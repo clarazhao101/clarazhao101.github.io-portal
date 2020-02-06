@@ -1,6 +1,6 @@
 main{
   max-width: 1200px;
-  width: 800px;
+  width: 900px;
   margin:auto;
   font-family: 'Barlow Condensed', sans-serif;
 }
@@ -42,9 +42,36 @@ a:hover{
   align-content: center;
 }
 
+.bigcontainer{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  margin:5%;
+
+}
+
+.picturebox{
+  flex:1;
+  border:2px solid #3CB371;
+  margin-right: 5%;
+
+}
+
+.picturebox img{
+  width:95%;
+}
+
+.summarybox{
+  flex:1;
+}
+
+.summarybox p{
+  width:80%;
+}
 
 footer p{
   flex:1;
+
 }
 
 
