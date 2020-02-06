@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JS Function Experimentation</title>
+  </head>
+  <body>
+    <h1>JS Function Experimentation</h1>
+
+    <script>
+
+
+    var myInteger = prompt("please enter a whole number", "");
+    var animal = ['dogs', 'cats', 'rabbits', 'hamsters'];
+
+
+function greeting(){
+    var sassyline;
+
+    if(parseInt(myInteger)){
+    sassyline = "you are smart, and you deserve a pet!";
+  }
+    else{
+      sassyline = "uhg you can't follow instructions but you can still have an animal cuz I'm nice";
+    }
+
+  return sassyline;
+}
+
+
+function choice(){
+  console.log(greeting());
+
+  console.log(`you get ${animal[Math.floor(Math.random() * animal.length)]}`);
+
+
+
+}
+
+
+choice();
+
+
+
+
+
+    </script>
+
+  </body>
+  </html>
