@@ -2,7 +2,7 @@ main{
   max-width: 1200px;
   width: 900px;
   margin:auto;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 header{
@@ -31,7 +31,7 @@ header p a:hover{
 
 
 footer{
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Abel', sans-serif;
   background-color:#3CB371;
   width:100%;
   margin: auto;
@@ -69,6 +69,14 @@ footer{
 
 .summarybox p{
   width:80%;
+}
+
+.justtext{
+  margin:5%;
+}
+
+.citations{
+  margin:5%;
 }
 
 footer p{
