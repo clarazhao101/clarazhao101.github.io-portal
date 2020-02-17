@@ -10,5 +10,5 @@ function setup() {
 function draw() {
 
     var circSize = random(40);
-  ellipse(mouseX, mouseY, circSize, circSize);
+  rect(mouseX, mouseY, circSize, circSize);
 }
