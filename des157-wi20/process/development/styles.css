@@ -75,6 +75,11 @@ footer{
   margin-top: 10px;
 }
 
+.mockups img {
+  width:100%;
+  margin-top: 10px;
+}
+
 footer p{
   flex:1;
 
