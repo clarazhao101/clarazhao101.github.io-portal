@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Interactions</title>
+</head>
+
+<body>
+
+<form id="myform">
+
+  <section id="who">
+      <h2>Who did you talk to?</h2>
+      <input type="text" placeholder="noun" id="noun1">
+      <br>
+      <button>
+        <p><a href="#relationship">Next</a></p>
+      </button>
+  </section>
+
+  <section id="relationship">
+    <h2>What is their relationship to you?</h2>
+    <input type="text" placeholder="noun" id="noun2">
+    <br>
+    <button>
+      <p><a href="#other">Next</a></p>
+    </button>
+  </section>
+
+  <section id="other">
+    <h2>List 3 things you recall the other person</h2>
+    <input type="text" placeholder="noun" id="subject1">
+    <br>
+    <input type="text" placeholder="noun" id="subject2">
+    <br>
+    <input type="text" placeholder="noun" id="subject2">
+    <br>
+    <button>
+      <p><a href="#you">Next</a></p>
+    </button>
+  </section>
+
+  <section id="you">
+    <h2>List 3 things you talked about</h2>
+    <input type="text" placeholder="noun" id="subject4">
+    <br>
+    <input type="text" placeholder="noun" id="subject5">
+    <br>
+    <input type="text" placeholder="noun" id="subject6">
+    <br>
+    <button>
+      <p><a href="#diaryentry">Complete</a></p>
+    </button>
+
+  </section>
+
+  <section id="diaryentry">
+    <h2>Thank you answering! Click below to view your new entry!</h2>
+    <input type="submit" value="View Entry!" id="submitbutton">
+    <div class="invisible" id="madlib">
+        <p>Madlib will go here! The class is set initially to invisible, which is set in the styles above to display: none. When the mad lib is submitted, this class is swapped.</p>
+    </div>
+  </section>
+
+</form>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
