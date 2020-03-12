@@ -3,36 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Digital Interactions</title>
 
     <style>
+
+    body{
+      background-color:#74BCEC;
+      font-family: 'Montserrat', sans-serif;
+      scroll-behavior: smooth;
+
+    }
+
     #who{
       width:100vw;
       height:100vh;
+      padding: 15%;
+      color:white;
     }
 
     #relationship{
       width:100vw;
       height:100vh;
+      padding: 15%;
+      color:white;
     }
 
     #other{
       width:100vw;
       height:100vh;
+      padding: 15%;
+      color:white;
     }
 
     #you{
       width:100vw;
       height:100vh;
+      padding: 15%;
+      color:white;
     }
 
     #diaryentry{
       width:100vw;
       height:100vh;
+      padding: 15%;
     }
+
+    #diaryentry h2{
+      color:white;
+    }
+
+    #diaryentry div{
+      color:#74BCEC;
+    }
+
+    button{
+      border:2pt solid white;
+      border-radius: 10px;
+      background-color: transparent;
+      margin-top: 35px;
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    button a{
+      text-decoration: none;
+      color:white;
+      font-weight: bold;
+    }
+
+
+
 
     .invisible { display:none;}
     .visible {
@@ -43,7 +87,6 @@
         padding: 20px;
         background-color: white;
         border-radius: 15px;
-        color:#3498DB;
     }
 
 
@@ -102,8 +145,8 @@
 
   <section id="diaryentry">
     <h2>Thank you answering! Click below to view your new entry!</h2>
-    <input type="submit" value="Complete!" id="submitbutton">
-    <div class="visible" id="madlib">
+    <input type="submit" value="View Entry!" id="submitbutton">
+    <div class="invisible" id="madlib">
         <p>Madlib will go here! The class is set initially to invisible, which is set in the styles above to display: none. When the mad lib is submitted, this class is swapped.</p>
     </div>
   </section>
