@@ -29,7 +29,7 @@ document.getElementById("myform").addEventListener("submit", function(event){
 //This function takes an array input, then constructs the madlib, adding
 //in the user's words where necessary.
 function makeMadLib(theWords){
-    const madlib = `Today I talked to ${theWords[0]}.<br><br> ${theWords[0]} is my ${theWords[1]}.<br><br> ${theWords[0]} talked about ${theWords[2]}, ${theWords[3]}, ${theWords[4]}.<br><br> I talked about ${theWords[5]},${theWords[6]}, ${theWords[7]}`;
+    const madlib = `Today I talked to ${theWords[0]} <br><br> ${theWords[0]} is my ${theWords[1]} <br><br> ${theWords[0]} talked about ${theWords[2]}, ${theWords[3]}, ${theWords[4]} <br><br> I talked about ${theWords[5]},${theWords[6]}, ${theWords[7]}`;
 
     //Get the madlib container
     const mlContainer = document.getElementById('madlib');
