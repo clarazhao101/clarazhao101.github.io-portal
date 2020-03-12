@@ -1,0 +1,122 @@
+body{
+  background-color:#74BCEC;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  display:block;
+  margin-bottom:15px;
+}
+
+#who{
+  width:100vw;
+  height:100vh;
+  padding: 15%;
+  color:white;
+}
+
+#relationship{
+  width:100vw;
+  height:100vh;
+  padding: 15%;
+  color:white;
+}
+
+#other{
+  width:100vw;
+  height:100vh;
+  padding: 15%;
+  color:white;
+}
+
+#you{
+  width:100vw;
+  height:100vh;
+  padding: 15%;
+  color:white;
+}
+
+#diaryentry{
+  width:100vw;
+  height:100vh;
+  padding-top: 7%;
+  text-align: center;
+}
+
+#diaryentry input{
+
+}
+
+#diaryentry h2{
+  color:white;
+  font-family: 'Sigmar One', cursive;
+}
+
+#diaryentry div{
+  color:#74BCEC;
+}
+
+
+#endchoice{
+  background-color:transparent;
+  border:none;
+  margin-top: 20px;
+  /* width:70vw; */
+  text-align: center;
+}
+
+#endchoice h2{
+  text-align: center;
+}
+
+
+
+#endchoice p a{
+  text-decoration: none;
+  color:white;
+}
+
+#endchoice p a:hover{
+  font-weight: bold;
+}
+
+button{
+  border:2pt solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-top: 35px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+button a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+#submitbutton{
+  border:2pt solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-bottom:20px;
+  padding:20px;
+  cursor:pointer;
+  color:white;
+  font-weight: bold;
+  margin:auto;
+
+
+}
+
+.invisible { display:none;}
+.visible {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    margin:auto;
+
+}
