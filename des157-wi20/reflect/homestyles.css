@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   /* background-color: yellow; */
-  width:40vw;
+  width:50vw;
 
 
 }
@@ -47,15 +47,16 @@ body {
   border: 3px solid white;
   border-radius: 20px;
   transition: transform .2s;
+  margin-right: 40px;
 }
 
 .largebox div:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
-.largebox div:first-of-type{
+/* .largebox div:first-of-type{
   margin-right:40%;
-}
+} */
 
 .largebox div a{
   text-decoration: none;
