@@ -22,6 +22,7 @@ document.getElementById("myform").addEventListener("submit", function(event){
     //run a function to put the words into the madlib... Function below...
     //Pass the array of words the user typed into the function
     makeMadLib(words);
+    showChoices();
 
 });
 
@@ -38,6 +39,11 @@ function makeMadLib(theWords){
 
     //change the class on the madlib container so it becomes visible.
     mlContainer.setAttribute("class", "visible");
+}
+
+function showChoices(){
+  const choicebtn = document.getElementById('endchoice');
+  choicebtn.setAttribute("class", "visible");
 }
 
 }());
