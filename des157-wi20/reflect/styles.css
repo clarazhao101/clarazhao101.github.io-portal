@@ -39,36 +39,45 @@ input{
 #diaryentry{
   width:100vw;
   height:100vh;
-  padding: 15%;
+  padding-top: 7%;
+  text-align: center;
+}
+
+#diaryentry input{
+
 }
 
 #diaryentry h2{
   color:white;
+  font-family: 'Sigmar One', cursive;
 }
 
 #diaryentry div{
   color:#74BCEC;
 }
 
+
 #endchoice{
   background-color:transparent;
-}
-
-#endchoice{
   border:none;
-  text-align: right;
-  margin-top: 5px;
-  width:70vw;
+  margin-top: 20px;
+  /* width:70vw; */
+  text-align: center;
 }
 
-#endchoice p{
-  text-align: right;
+#endchoice h2{
+  text-align: center;
 }
+
 
 
 #endchoice p a{
   text-decoration: none;
   color:white;
+}
+
+#endchoice p a:hover{
+  font-weight: bold;
 }
 
 button{
@@ -91,11 +100,14 @@ button a{
   border-radius: 10px;
   background-color: transparent;
   margin-top: 15px;
-  margin-bottom:15px;
+  margin-bottom:20px;
   padding:20px;
   cursor:pointer;
   color:white;
   font-weight: bold;
+  margin:auto;
+
+
 }
 
 .invisible { display:none;}
@@ -104,4 +116,7 @@ button a{
     padding: 20px;
     background-color: white;
     border-radius: 15px;
+    text-align: left;
+    margin:auto;
+
 }
