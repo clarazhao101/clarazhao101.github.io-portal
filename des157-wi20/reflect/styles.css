@@ -50,6 +50,27 @@ input{
   color:#74BCEC;
 }
 
+#endchoice{
+  background-color:transparent;
+}
+
+#endchoice{
+  border:none;
+  text-align: right;
+  margin-top: 5px;
+  width:70vw;
+}
+
+#endchoice p{
+  text-align: right;
+}
+
+
+#endchoice p a{
+  text-decoration: none;
+  color:white;
+}
+
 button{
   border:2pt solid white;
   border-radius: 10px;
@@ -79,8 +100,6 @@ button a{
 
 .invisible { display:none;}
 .visible {
-    display:block;
-    left: 20%;
     width: 400px;
     padding: 20px;
     background-color: white;
