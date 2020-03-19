@@ -46,11 +46,7 @@ function showChoices(){
   choicebtn.setAttribute("class", "visible");
 }
 
-const lastbtn = document.getElementById('refresh');
-const mlContainer = document.getElementById('madlib');
-lastbtn.onclick = function(){
-mlContainer.setAttribute("class", "invisible");
-}
+
 
 
 
